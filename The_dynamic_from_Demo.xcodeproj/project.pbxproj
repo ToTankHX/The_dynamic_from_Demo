@@ -12,6 +12,7 @@
 		8C82DB9F1B5662E9001D0894 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C82DB9E1B5662E9001D0894 /* Images.xcassets */; };
 		8C82DBA21B5662E9001D0894 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C82DBA01B5662E9001D0894 /* LaunchScreen.xib */; };
 		8C82DBAE1B5662E9001D0894 /* The_dynamic_from_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C82DBAD1B5662E9001D0894 /* The_dynamic_from_DemoTests.m */; };
+		8C82DBB91B5662F9001D0894 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C82DBB81B5662F9001D0894 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		8C82DBA71B5662E9001D0894 /* The_dynamic_from_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = The_dynamic_from_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C82DBAC1B5662E9001D0894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C82DBAD1B5662E9001D0894 /* The_dynamic_from_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_dynamic_from_DemoTests.m; sourceTree = "<group>"; };
+		8C82DBB71B5662F9001D0894 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C82DBB81B5662F9001D0894 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				8C82DB9B1B5662E9001D0894 /* AppDelegate.h */,
 				8C82DB9C1B5662E9001D0894 /* AppDelegate.m */,
+				8C82DBB71B5662F9001D0894 /* ViewController.h */,
+				8C82DBB81B5662F9001D0894 /* ViewController.m */,
 				8C82DB9E1B5662E9001D0894 /* Images.xcassets */,
 				8C82DBA01B5662E9001D0894 /* LaunchScreen.xib */,
 				8C82DB971B5662E9001D0894 /* Supporting Files */,
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C82DBB91B5662F9001D0894 /* ViewController.m in Sources */,
 				8C82DB9D1B5662E9001D0894 /* AppDelegate.m in Sources */,
 				8C82DB9A1B5662E9001D0894 /* main.m in Sources */,
 			);
